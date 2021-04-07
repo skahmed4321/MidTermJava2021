@@ -10,5 +10,34 @@ public class Factorial {
          *
          */
 
+        System.out.println("Factorial of 5 = " + factorial2(5));
+    }
+
+    public static int factorial2(int i) {
+        if (i == 0)
+            return 1;
+        else return i * factorial2(i - 1);
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
